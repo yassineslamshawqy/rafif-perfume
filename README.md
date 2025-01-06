@@ -1,2 +1,2 @@
 # rafif-perfume
-a perfume shop 
+control panel and some of another php files is not working because its not full website
