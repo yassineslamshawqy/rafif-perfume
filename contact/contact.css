@@ -1,0 +1,161 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.brand{
+    position: relative;
+    top: 15px;
+    left: 13px;
+}
+
+.nav-item{
+    display: inline;
+    margin-left: 20px;
+}
+
+.col{
+    display: inline-block !important;
+}
+
+.nav-list{
+    position: relative;
+    left: 30px;
+}
+
+.text-content{
+    margin-left: 60px;
+    margin-top: 0px;
+    position: relative;
+    bottom: 70px;
+}
+
+.text-content h1{
+    color: #daa520;
+    font-size: 60px;
+    font-family: "Playwrite NG Modern", cursive;
+    line-height: normal;
+}
+
+.nav-link{
+    color: goldenrod;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    z-index: 4;
+    transition: .7s;
+}
+
+.nav-link:hover{
+    font-weight: bold;
+    color: gold;
+}
+
+.main{
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 430px;
+    background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url(../img/types\ 2.jpg);
+    background-size: cover;
+    color: #daa520 !important;
+    border-radius: 0% 0% 100% 100%;
+    border-bottom: #daa520 solid 2px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.look-btn{
+    background-color: #daa520;
+    color: black;
+    border-radius: 12px;
+    text-decoration: none;
+    padding: 14px 24px;
+    position: relative;
+    top: 40px;
+}
+
+.f-card{
+    width: 200px;
+    height: 200px;
+    border-radius: 900px;
+    border: #daa520 solid 2px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/types\ 2.jpg);
+}
+
+#top{
+    position: relative !important;
+    top: 40px !important;
+}
+
+.features{
+    width: 100%;
+    background-color: black;
+}
+
+.btn{
+    background-color: #daa520;
+    border-radius: 90px;
+    padding: 14px 24px;
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+
+.btn-n{
+    background: none;
+    border-radius: 90px;
+    padding: 12px 22px;
+    text-decoration: none;
+    color: #daa520;
+    font-family: "Montserrat", sans-serif;
+    border: #daa520 2px solid;
+}
+
+.p-card{
+    width: 280px;
+    height: 340px;
+    background-color: #151517;
+    border-radius: 0% 0% 10% 10%;
+    border-bottom: 3px solid #daa520;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 20px;
+}
+
+
+.services{
+    color: #daa520;
+    padding-bottom: 90px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.f-card h2{
+    font-family: "Montserrat", sans-serif;
+    color: #daa520;
+    position: relative;
+    top: 80px;
+}
+
+body{
+    background-color: black;
+}
+
+@media (max-width:1023px){
+    #top{
+        top: 0px !important;
+    }
+
+    .p-card{
+        margin: 0px;
+        margin-top: 20px;
+    }
+
+    .nav-list{
+        display: none;
+    }
+}
